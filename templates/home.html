@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Welcome to our Project</title>
+    <style>
+        /* General styles */
+        body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background-color: rgba(241, 233, 198, 0.1); /* Set background color with transparency */
+    background-image: url('static/images/background.png'); /* Add the background image URL here */
+    background-size: cover; /* Cover the entire viewport */
+    background-position: center; /* Center the background image */
+    background-attachment: fixed;
+    overflow-x: hidden; /* Hide horizontal scrollbar */
+    overflow-y: auto; /* Show vertical scrollbar only when needed */
+}
+
+
+        /* Style for the heading */
+        h1, h3 {
+            text-align: center; /* Center the heading */
+            margin: 20px 0; /* Add margin for spacing */
+        }
+
+        h1 {
+            color: #333; /* Set text color */
+            font-size: 24px; /* Increase font size */
+        }
+
+        h3 {
+            color: #333; /* Set text color */
+            font-size: 20px; /* Increase font size */
+        }
+        
+        /* Style for the navbar */
+        .navbar {
+            background-color: #b7712b; /* Set background color */
+            overflow: hidden;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            padding: 10px 20px; /* Add padding for spacing */
+            width: 100%; /* Ensure navbar stretches across the viewport */
+        }
+
+        /* Style for the nav-links */
+        .nav-links {
+            list-style-type: none; /* Remove bullet points */
+            margin: 0; /* Remove default margin */
+            padding: 0; /* Remove default padding */
+            display: flex; /* Arrange items in a row */
+        }
+
+        /* Style for the button container */
+        .button-container {
+            margin: 0 10px; /* Add margin for spacing between buttons */
+        }
+
+        /* Style for the button */
+        button {
+            background-color: transparent;
+            color: black; /* Set text color */
+            border: none;
+            cursor: pointer;
+            font-size: 16px; /* Increase button font size */
+            padding: 8px 12px; /* Add padding for spacing */
+            border-radius: 50%; /* Make it circular */
+            transition: background-color 0.3s ease; /* Add transition effect */
+        }
+
+        /* Hover effect for buttons */
+        button:hover {
+            background-color: rgba(255, 255, 255, 0.2); /* Add highlight effect */
+        }
+
+        /* Style for the header */
+        header {
+            text-align: center; /* Center align header content */
+            margin-top: 50px; /* Add margin for spacing */
+        }
+
+        /* Style for the box-like structure */
+        .tab-box {
+            background-color: #b7712b; /* Set background color */
+            border: 1px solid #b7712b; /* Add border */
+            border-radius: 5px; /* Add border radius for rounded corners */
+            padding: 10px 20px; /* Add padding */
+            display: inline-block; /* Ensure inline display to prevent white space */
+        }
+
+        .content-text {
+    color: rgb(0, 0, 0); /* Set text color */
+    font-size: 20px; /* Set font size */
+    margin: 20px; /* Add margin for spacing */
+    padding: 20px; /* Add padding around the text */
+    background-color: rgba(241, 241, 235, 0.137); /* Semi-transparent white background */
+}
+        
+    </style>
+</head>
+<body>
+    <nav class="navbar">
+        <h3 style="color:black;">Project Group 11 - Loan Status Approval</h3>
+        <ul class="nav-links">
+            <li class="button-container">
+                <div class="tab-box">
+                    <button onclick="window.location.href = '/about';">About</button>
+                </div>
+            </li>
+            <li class="button-container">
+                <div class="tab-box">
+                    <button onclick="window.location.href = '/dataset';">Dataset</button>
+                </div>
+            </li>
+            <li class="button-container">
+                <div class="tab-box">
+                    <button onclick="window.location.href = '/dataprocessing';">Dataprocessing</button>
+                </div>
+            </li>
+        </ul>
+    </nav>
+    <header>
+        
+    </header>
+    <div class="content-text">
+        <h1>Loan Dataset Analysis</h1>
+        <p>Welcome to the Loan Dataset Analysis project! This project aims to explore the factors that play a significant role in getting a loan approved. The dataset contains information about various factors such as credit history, employment status, applicant income, co-applicant income, property area, and previous loan history.</p>
+        <h2>Dataset Description</h2>
+        <p>The dataset used in this project consists of the following columns:</p>
+        <ul>
+            <li>Credit History: Indicates whether the applicant has a credit history (1 for Yes, 0 for No).</li>
+            <li>Employment Status: Specifies the employment status of the applicant (e.g., employed, self-employed, unemployed).</li>
+            <li>Applicant Income: The income of the primary applicant.</li>
+            <li>Co-applicant Income: The income of the co-applicant, if any.</li>
+            <li>Property Area: The area where the property associated with the loan is located (e.g., Urban, Rural, Semiurban).</li>
+            <li>Previous Loan History: Indicates whether the applicant has taken a loan in the past (1 for Yes, 0 for No).</li>
+        </ul>
+        <h2>Analysis Objectives</h2>
+        <p>The primary objectives of this analysis are as follows:</p>
+        <ol>
+            <li>Identify the relationship between credit history and loan approval.</li>
+            <li>Determine the impact of employment status on loan approval rates.</li>
+            <li>Analyze the correlation between applicant income and loan approval.</li>
+            <li>Investigate the significance of co-applicant income in loan approval decisions.</li>
+            <li>Examine the influence of property area on loan approval rates.</li>
+            <li>Evaluate the effect of previous loan history on current loan approval.</li>
+        </ol>
+    </div>
+</body>
+</html>

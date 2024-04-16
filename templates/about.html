@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>About Page</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f8f8f8;
+        }
+        header {
+            background-color: #333;
+            color: #fff;
+            padding: 20px;
+            text-align: center;
+        }
+        h1, h2 {
+            margin-bottom: 10px;
+        }
+        section {
+            margin: 20px;
+        }
+        table {
+            width: 100%;
+            border-collapse: collapse;
+            margin-top: 20px;
+        }
+        th, td {
+            padding: 8px;
+            text-align: left;
+            border-bottom: 1px solid #ddd;
+        }
+        th {
+            background-color: #333;
+            color: #fff;
+        }
+        button {
+            background-color: #4CAF50;
+            color: white;
+            padding: 10px 20px;
+            border: none;
+            cursor: pointer;
+            border-radius: 5px;
+            text-decoration: none;
+            margin: 20px;
+        }
+        button:hover {
+            background-color: #45a049;
+        }
+        a {
+            text-decoration: none;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>About Dataset</h1>
+        <p>In this Loan Status Prediction dataset, we have the data of applicants who previously applied for the loan based on the property which is a Property Loan.</p>
+        <p>The bank will decide whether to give a loan to the applicant based on some factors such as Applicant Income, Loan Amount, previous Credit History, Co-applicant Income, etc…</p>
+        
+    </header>
+    <section>
+        <h2>About the loan_data.csv file:</h2>
+        
+    </section>
+    <section>
+        <table border="1">
+            <tr>
+                <th>Column Name</th>
+                <th>Description</th>
+                <th>Sample Data</th>
+            </tr>
+            <tr>
+                <td>Loan_ID</td>
+                <td>Loan reference number (unique ID)</td>
+                <td>LP001002; LP001003; ...</td>
+            </tr>
+            <tr>
+                <td>Gender</td>
+                <td>Applicant gender (Male or Female)</td>
+                <td>Male; Female</td>
+            </tr>
+            <tr>
+                <td>Married</td>
+                <td>Applicant marital status (Married or not married)</td>
+                <td>Married; Not Married</td>
+            </tr>
+            <tr>
+                <td>Dependents</td>
+                <td>Number of family members</td>
+                <td>0; 1; 2; 3+</td>
+            </tr>
+            <tr>
+                <td>Education</td>
+                <td>Applicant education/qualification (graduate or not graduate)</td>
+                <td>Graduate; Under Graduate</td>
+            </tr>
+            <tr>
+                <td>Self_Employed</td>
+                <td>Applicant employment status (yes for self-employed, no for employed/others)</td>
+                <td>Yes; No</td>
+            </tr>
+            <tr>
+                <td>ApplicantIncome</td>
+                <td>Applicant's monthly salary/income</td>
+                <td>5849; 4583; ...</td>
+            </tr>
+            <tr>
+                <td>CoapplicantIncome</td>
+                <td>Additional applicant's monthly salary/income</td>
+                <td>1508; 2358; ...</td>
+            </tr>
+            <tr>
+                <td>LoanAmount</td>
+                <td>Loan amount</td>
+                <td>128; 66; ...</td>
+            </tr>
+            <tr>
+                <td>Loan_Amount_Term</td>
+                <td>The loan's repayment period (in days)</td>
+                <td>360; 120; ...</td>
+            </tr>
+            <tr>
+                <td>Credit_History</td>
+                <td>Records of previous credit history (0: bad credit history, 1: good credit history)</td>
+                <td>0; 1</td>
+            </tr>
+            <tr>
+                <td>Property_Area</td>
+                <td>The location of property (Rural/Semiurban/Urban)</td>
+                <td>Rural; Semiurban; Urban</td>
+            </tr>
+            <tr>
+                <td>Loan_Status</td>
+                <td>Status of loan (Y: accepted, N: not accepted)</td>
+                <td>Y; N</td>
+            </tr>
+        </table>
+    </section>
+    <a href="/"><button>Home</button></a>
+</body>
+</html>

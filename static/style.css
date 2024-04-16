@@ -1,0 +1,42 @@
+/* styles.css */
+header {
+    background-color: #333;
+    color: white;
+    padding: 10px;
+}
+
+h1 {
+    margin: 0;
+}
+
+section {
+    margin-bottom: 20px;
+}
+
+h2 {
+    color: #333;
+}
+
+ul {
+
+    display: block;
+    list-style-type: disc;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    padding-inline-start: 20px;
+    unicode-bidi: isolate;
+}
+
+li {
+    margin-bottom: 5px;
+}
+.navbar {
+    background-color: #b7712b;
+    overflow: hidden;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 5px 5px;
+}
